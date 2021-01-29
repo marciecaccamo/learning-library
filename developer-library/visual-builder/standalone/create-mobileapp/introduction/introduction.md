@@ -2,7 +2,7 @@
 
 ## About this Workshop
 
-This workshop shows you how to develop a web application in Visual Builder that displays a user interface in which your users can view, edit, and create data.
+This workshop shows you how to create a simple mobile application in Visual Builder that displays data for HR departments.
 
 Estimated Lab Time: 115 minutes
 
@@ -15,20 +15,19 @@ Take a look at this video to learn more, or just dive right into the labs.
 
 ### What Will You Learn?
 
-In this workshop, you'll learn how to create a new application, add some pages, and link them to each other. You'll also create some business objects and learn how to import data and build pages for editing the data, as well as how to create common business rules for your web app.
+In this workshop, you'll learn how to create the mobile application itself, as well as the configuration file required to build the mobile application, and learn how to install the app on a device so you can test its functionality.
 
 ### What Do You Need?
 
-
-
 * An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
 * A Chrome browser
+* An Android and/or iOS device where you can install the mobile application you create.
 
 ## Acknowledgements
-* **Author** Sheryl Manoharan
-* **Last Updated By/Date** - Sheryl Manoharan, October 2020
+* **Author** Sheryl Manoharan, Visual Builder User Assistance
+* **Last Updated ** - February 2021
 
 ## Need Help?
-Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+Submit feedback or ask for help using our [Visual Builder Support Forum](https://cloudcustomerconnect.oracle.com/resources/e610f4723c/summary). Click the **Log In** button and login using your Oracle Account. Click the **Post a new topic** button to the right to start a new discussion, or search for an answer using keywords.  Please include your workshop name and lab name, and include screenshots and attach files if needed.  Here's your chance to engage directly with the author of the workshop!
 
 If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
