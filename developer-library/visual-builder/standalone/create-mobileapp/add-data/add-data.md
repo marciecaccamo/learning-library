@@ -1,4 +1,4 @@
-# Import Data to an Oracle Visual Builder Mobile Application
+# Add Data to Your Mobile Application
 
 ## Introduction
 

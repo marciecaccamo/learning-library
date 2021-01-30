@@ -8,7 +8,7 @@ This tutorial shows you how to build a mobile application for installation on An
 
 ### Background
 
-After you define build configurations that define deployment information for the Android and iOS platforms, you are ready to build the mobile application and stage it for testing. Visual Builder generates a QR code and a link to an installation file for each platform after the build process is complete. Users can scan the QR code or download the installation file to install the mobile application.
+After you define build configurations that define deployment information for the Android and iOS platforms, you're ready to actually build the mobile application and stage it for testing. Visual Builder generates a QR code and a link to an installation file for each platform after the build process is complete. Users can scan the QR code or download the installation file to install the mobile application.
 
 In this tutorial, you'll build a mobile application to generate QR codes and installation files for both the Android and iOS platforms. The steps to build a mobile application for installation on any one platform (either Android or iOS) are identical, except that a QR code and an installation file are generated only for the specified platform.
 
@@ -16,18 +16,18 @@ In this tutorial, you'll build a mobile application to generate QR codes and ins
 
 After you create the build configuration for both Android and iOS, you can build the installation files (APK for an Android device and IPA for an iOS device) to install the mobile application on those devices.  
 
-1.  Click **Preview** ![](images/vbcsio_mob_run_icon.png "Run icon") to run the app on a new tab in the browser.
+1.  Click **Preview** ![](./images/vbcsio_mob_run_icon.png) to run the app on a new tab in the browser.
 
-    ![](images/vbcsio_mob_install_s1.png "Running hrmobileapp")
+    ![](./images/vbcsio_mob_install_s1.png )
 
 2.  Click **Build my App**.
 3.  In the Stage Application dialog box, select **Stage application with a clean database** and click **Stage**.
 
-    ![](images/vbcsio_mob_install_s3.png "Stage Application dialog box")
+    ![](./images/vbcsio_mob_install_s3.png )
 
     When the build is complete, the QR code and the **Download** link are displayed.
 
-    ![](images/vbcsio_mob_install_s3b.png "QR code and Download link")
+    ![](./images/vbcsio_mob_install_s3b.png )
 
 4.  Download the installation file for each platform:
     -   Select **iOS** in the drop-down list, then scan the QR code to download the installation file onto the iOS device, or use the **Download** link to download the IPA file to your file system.

@@ -1,4 +1,4 @@
-# Add Pages for Data Manipulation to an Oracle Visual Builder Mobile Application
+# Add Pages for Working with Data
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This tutorial shows you how to use the Quick Starts provided with Oracle Visual 
 
 ### Background
 
-Oracle Visual Builder provides Quick Starts that facilitate the page creation task in building your mobile application. Quick Starts facilitate the creation of pages to display, create, edit, and delete data. You can invoke the Quick Start you want to use when you select the appropriate component in the page. Typically, this is a List View component when you develop a mobile application.
+Oracle Visual Builder provides Quick Starts that make it easy to create pages for your mobile application, through which you can display, create, edit, and/or delete data. You can pick the Quick Start you need when you select the component in the page, typically the List View component if you're building a mobile application.
 
 ## **STEP 1**: Add a Detail Page for the Department Business Object
 

@@ -1,4 +1,4 @@
-# Publish an Oracle Visual Builder Mobile Application
+# Publish Your Mobile Application
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This tutorial shows you how to publish a mobile application.
 
 ### Background
 
-After you successfully test the staged application, you can publish it and make the application live. Users who have the proper credentials can view the live application. You can’t make changes to an application once it's published. Instead, you must create and edit a new version.
+After you successfully test the staged application, you can publish it and make the application live, so users who have the proper credentials can view it. You can’t make changes to an application once it's published. Instead, you must create and edit a new version.
 
 ## **STEP 1**: Publish the Application
 

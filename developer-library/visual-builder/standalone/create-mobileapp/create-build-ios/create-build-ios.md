@@ -8,7 +8,7 @@ This tutorial shows you how to create a build configuration to install a mobile 
 
 ### Background
 
-In the previous tutorial, you defined application settings and a build configuration to deploy your mobile application on the Android platform; you'll do the same for the iOS platform in this tutorial. You'll then use these settings to build the mobile application for installation on both Android and iOS devices in a later tutorial.
+In the previous tutorial, you defined application settings and a build configuration to deploy your mobile application on the Android platform; now you'll do the same for the iOS platform. You'll then use these settings to build the mobile application for installation on both Android and iOS devices in a later lab.
 
 ## **STEP 1**: Enroll in an iOS Developer Program
 
@@ -26,7 +26,7 @@ Use the iOS Provisioning Portal, accessible only to members of the iOS Developer
 
 These steps assume that you are already logged in to Oracle Visual Builder and are viewing the HR Application you created.
 
-1.  If necessary, click the **Mobile Applications![](images/vbcsio_mob_mob_icon.png "Mobile Applications icon")** tab in the Navigator.
+1.  If necessary, click the **Mobile Applications** ![](./images/vbcsio_mob_mob_icon.png) tab in the Navigator.
 2.  Click the **hrmobileapp** node and click the **Settings** tab.
 3.  In the General tab, review Application Settings. If you already looked over the values when creating an Android build configuration in the previous tutorial and are comfortable with the settings, skip this step. Otherwise, revise values that are displayed to the users (as suggested in the following examples):
 
@@ -36,16 +36,16 @@ These steps assume that you are already logged in to Oracle Visual Builder and a
 -   **Package Name / Bundle ID Default:** Accept the default value. This value specifies the package name for the app. To avoid naming conflicts, iOS uses reverse package names, such as _com.company.application_. For more information, refer to the iOS Developer Library.
 -   **Lock Portrait Mode:** Accept the default value to render the application in Portrait mode on the mobile device. Deselecting the check box renders the mobile application in both Landscape and Portrait mode.  
 
-    ![](images/vbcsio_mob_gen_s3.png "Application Settings pane")
+    ![](./images/vbcsio_mob_gen_s3.png)
 
 
 ## **STEP 4**: Define a Build Configuration
 
-A build configuration includes deployment configuration information, such as the credentials of the certificate that you use to sign the application, and other information, such as the build type, bundle ID, and bundle version.  
+A build configuration includes deployment configuration information, such as the credentials of the certificate that you use to sign in to the application, and other information, such as the build type, bundle ID, and bundle version.  
 
 1.  Click the **Build Configurations** tab and select **iOS** in the + Configuration drop-down list.
 
-    ![](images/vbcsio_mob_bp_s1.png "iOS option in New Configuration list")
+    ![](./images/vbcsio_mob_bp_s1.png)
 
 2.   In the iOS Build Configuration dialog box, enter:
     -   **Configuration Name:** Enter the configuration name, for example, `MyiOSBuildConfiguration`.
@@ -60,11 +60,11 @@ A build configuration includes deployment configuration information, such as the
     -   **Provisioning Profile:** Drag and drop (or browse to and select the location of) the provisioning profile, for example, `your_prov_profile.mobileprovision`.
     -   **Signing Identity:** Enter the name of the developer or distribution certificate that identifies the originator of the code (such as a developer or a company), for example, `iPhone Distribution: Your Company (ID 1)`. Enter the entire name as it appears in the Common Name column of the Keychain Access app.
 
-![](images/vbcsio_mob_bp_s2.png "iOS Build Configuration dialog")
+![](./images/vbcsio_mob_bp_s2.png)
 
 4.  Click **Save Configuration**. The new build configuration is displayed on the Build Configurations page.
 
-![](images/vbcsio_mob_bp_result.png "iOS build configuration created")
+![](./images/vbcsio_mob_bp_result.png)
 
 ## Acknowledgements
 **Author** - Sheryl Manoharan, Visual Builder User Assistance

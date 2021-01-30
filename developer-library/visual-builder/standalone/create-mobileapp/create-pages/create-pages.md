@@ -13,9 +13,9 @@ In Oracle Visual Builder, you create pages in your mobile application by draggin
 
 ## **STEP 1**: Use the main-start Page to Display Departments
 
-These steps assume that you are already logged in to Oracle Visual Builder and are viewing the HR Application you created in the previous tutorial.
+These steps assume that you are already logged in to Oracle Visual Builder and are viewing the HR Application you created in the previous lab.
 
-1.  Click the **Mobile Applications** ![](images/vbcscp_mob_mob_icon.png "Mobile Applications icon") tab.
+1.  Click the **Mobile Applications** ![](./images/vbcscp_mob_mob_icon.png) tab.
 2.  Expand the **hrmobileapp**, **Flows**, and **main** nodes, then click **main-start**.
 
     ![](./images/vbcscp_mob_dd_s2.png)
