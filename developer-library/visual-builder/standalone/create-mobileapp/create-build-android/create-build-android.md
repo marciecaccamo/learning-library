@@ -16,11 +16,11 @@ Your mobile application must be signed before it can be deployed to an Android d
 
 To sign your mobile application, you must have a key. If you do not have a key, you can create one using the keytool utility.
 
-The following example shows how to create a keystore with a single key that is valid for 10,000 days. As described in the _Sign Your App_ document, available on the Android Developers website, the keytool prompts you to provide passwords for the keystore and key, and to provide the Distinguished Name fields for your key before it generates the keystore. Complete all the prompts and the created keystore is saved in the specified directory.
+The following example shows how to create a keystore with a single key that is valid for 10,000 days. As described in the [Sign Your App document](https://developer.android.com/studio/publish/app-signing), available on the Android Developers website, the keytool prompts you to provide passwords for the keystore and key, and to provide the Distinguished Name fields for your key before it generates the keystore. Complete all the prompts and the created keystore is saved in the specified directory.
 
 `keytool -genkeypair -v -keystore c:\mykeystore\releasesigning.keystore -alias releaseKeyAlias -keyalg RSA -keysize 2048 -validity 10000`
 
-If you do not want to create a key, right-click [this sample keystore file](./files/vbcsdoc.keystore) and download it to your file system to use in this tutorial. Here are the credentials for the keystore file:
+If you do not want to create a key, right-click [this sample keystore file](https://objectstorage.us-ashburn-1.oraclecloud.com/p/JjCL27Xb2ZRd5b0ffLzx5seodIngMkblIipYb95WtnfxNNnjapO9e1EayVbvXSHZ/n/c4u03/b/developer-library/o/vbcsdoc.keystore) and save it to your file system to use in this tutorial. Here are the credentials for the keystore file:
 
 -   **Keystore Password**: `vbcsdoc_ks_pass`
 -   **Key alias**: `vbcsdoc_ksalias`

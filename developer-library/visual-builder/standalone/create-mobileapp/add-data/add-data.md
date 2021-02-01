@@ -8,7 +8,7 @@ This tutorial shows you how to add data to a mobile application by importing the
 
 ## **STEP 1**: Import Data for the Department Business Object
 
-1.  Right-click [this file](./files/Department.csv) and download it to your file system. The `Department.csv` file contains six departments for the application.
+1.  Right-click [this link](https://objectstorage.us-ashburn-1.oraclecloud.com/p/CNQaBVnk2_m-Q9jCepTB6cm06ZImDUTaCc_pEq4r7GtygSivKiA2XrFJYcs5eZHW/n/c4u03/b/developer-library/o/Department.csv) and save the file to your file system. The `Department.csv` file contains six departments for the application.
 2.  In the Navigator, click **Business Objects** ![](./images/vbcsnd_mob_bo_icon.png).
 3.  Click **Department**, then click the **Data** tab. The business object fields you created are displayed.
 4.  Click **Import From File** ![](./images/vbcsnd_mob_import_icon_transp.png).
