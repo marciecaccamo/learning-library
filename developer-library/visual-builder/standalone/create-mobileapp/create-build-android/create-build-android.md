@@ -20,7 +20,7 @@ The following example shows how to create a keystore with a single key that is v
 
 `keytool -genkeypair -v -keystore c:\mykeystore\releasesigning.keystore -alias releaseKeyAlias -keyalg RSA -keysize 2048 -validity 10000`
 
-If you do not want to create a key, right-click [this sample keystore file](./files/vbcsdoc.keystore "Sample Keystore file") and download it to your file system to use in this tutorial. Here are the credentials for the keystore file.
+If you do not want to create a key, right-click [this sample keystore file](./files/vbcsdoc.keystore) and download it to your file system to use in this tutorial. Here are the credentials for the keystore file:
 
 -   **Keystore Password**: `vbcsdoc_ks_pass`
 -   **Key alias**: `vbcsdoc_ksalias`
@@ -62,7 +62,7 @@ A build configuration includes deployment configuration and specifies if the bui
     -   **Version Code:** Accept the default value for the version code. This is an integer value that represents the version of the application code, which is checked programmatically by other applications for upgrades or downgrades. The minimum and default value is 1. You can select any value and increment it by 1 for each successive release. 
     -   **Keystore:** Drag and drop (or browse to and select) the keystore file containing the private key used for signing the application for distribution. Use the provided sample keystore file, `vbcsdoc.keystore`.
     -   **Keystore Password:** Enter the password for the keystore. This password allows access to the physical file. If using the sample keystore file, enter `vbcsdoc_ks_pass`.
-    -   **Key Alias:** Enter an alias for the key. This is the value set for the _keytool's -alias_ argument. Only the first eight characters of the alias are used. If using the sample keystore file, enter `vbcsdoc_ksalias`.
+    -   **Key Alias:** Enter an alias for the key. This is the value set for the keytool's -alias_ argument. Only the first eight characters of the alias are used. If using the sample keystore file, enter `vbcsdoc_ksalias`.
     -   **Key Password:** Enter the password for the key. This password allows access to the key (identified by the alias) within the keystore. If using the sample keystore file, enter `vbcsdoc_ks_pass`.
 
     ![](./images/vbcsia_mob_bp_s2.png)
